@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <div id="lang2">
+        <button class="lang1">HTML</button>
+        <button class="lang1">CSS</button>
+        <button class="lang1">Javascript</button>
+    </div>
+    <h1>Calculator Project</h1>
+
+    <div id="calculator">
+        
+        <input type="text" placeholder="enter expression" id="text-area" ></input>
+        
+        <button class="button" onclick="show('7')">7</button>
+        <button class="button" onclick="show('8')">8</button>
+        <button class="button" onclick="show('9')">9</button>
+        <button class="button" onclick="show('*')">X</button>
+        <button class="button" onclick="show('4')">4</button>
+        <button class="button" onclick="show('5')">5</button>
+        <button class="button" onclick="show('6')">6</button>
+        <button class="button" value='/' onclick="show('/')">/</button>
+        <button class="button" onclick="show('1')">1</button>
+        <button class="button" onclick="show('2')">2</button>
+        <button class="button" onclick="show('3')">3</button>
+        <button class="button" onclick="show('-')">-</button>
+        <button class="button" onclick="show('.')">.</button>
+        <button class="button" onclick="show('0')">0</button>
+        <button class="button" onclick="evaluateExpression()">=</button>
+        <button class="button" onclick="show('+')">+</button>
+        <button class="delete button" onclick="wholedelete()">AC</button>
+        <button class="cross button" onclick="deleteLast()">x</button>
+
+    </div>
+    
+</body>
+</html>
