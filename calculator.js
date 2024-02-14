@@ -1,4 +1,4 @@
-
+  
 function show(value){
     
     document.getElementById('text-area').value+=value;
